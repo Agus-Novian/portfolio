@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#progressBarContainer {
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  top: 1;
+  left: 0;
+}
+
+#progressBar {
+  background: linear-gradient(to left, #2563EB, #D97706, #DC2626, violet);
+  transform-origin: top left;
+  transform: scale(0, 0);
+  opacity: 0;
+}
+
+#progressBarContainer,
+#progressBar {
+  height: 10px;
+}
+
+@keyframes bounceOrig {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes bounceNew {
+  0%, 100% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+  
+  50% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+}
+
+.bounceOrig { animation: bounceOrig 1s infinite; }
+.bounceNew { animation: bounceNew 1s infinite; }
