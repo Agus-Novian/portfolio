@@ -1,7 +1,7 @@
 # Portfolio
 Portfolio Website Agus Novian,. S.Kom.
 
-[Demo Portfolio](https://Agus-Novian.github.io/portfolio)
+[Demo Portfolio](https://agus-novian.github.io/portfolio/)
 
 ## Step 1 - Clone the repository
 From the bash, clone the repository:
