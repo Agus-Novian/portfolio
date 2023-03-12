@@ -30,7 +30,16 @@ const Resume = () => {
             <li className="mb-2">
               <div className="flex items-center mb-1">
                 <div className="bg-indigo-500 rounded-full h-8 w-8" />
-                <div className="flex-1 ml-4 font-medium">Apr 2020 - Junior Software Engineer</div>
+                <div className="flex-1 ml-4 font-medium">Apr 2020 - Backend Developer</div>
+              </div>
+              <div className="ml-12">
+                PT. Multi Makmur Indonesia
+            </div>
+            </li>
+            <li className="mb-2">
+              <div className="flex items-center mb-1">
+                <div className="bg-indigo-500 rounded-full h-8 w-8" />
+                <div className="flex-1 ml-4 font-medium">Jan 2021 - Software Engineer</div>
               </div>
               <div className="ml-12">
                 PT. Multi Makmur Indonesia
